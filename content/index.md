@@ -6,6 +6,8 @@ Description: This is our index page.
 Home page
 ==========================
 
+![Laptop and coffee](%assets_url%/img/laptop_coffee.jpg)
+
 Hej! Jag heter Marcus Nilsson Ahlin, jag är en 19-åring som föddes i Växjö men växte upp i den skånska staden Hässleholm.
 
 Teknik är ett intresse som alltid funnits hos mig och jag har framför allt fastnat för programmering. Jag har ägnat både fritid och skoltid (IT på teknikprogrammet) åt programmering där jag främst nischat mig på webbsidor.
