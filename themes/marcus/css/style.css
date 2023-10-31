@@ -25,13 +25,18 @@ body {
 }
 
 .main {
-    margin: 0 auto;
-    
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 2em;
 }
 
-.main * {
-    width: 640px;
+.main h1 {
+    border-bottom: 2px solid #00FFFF;
+}
+
+.main p {
+    margin-bottom: 0.6rem;
 }
 
 .header, .footer {
@@ -79,16 +84,22 @@ body {
     .logo {
         max-width: 30%;
     }
-
-    .main * {
+    
+    .main {
+        max-width: 640px;
         width: 95vw;
+        margin: 0 auto;
     }
-
+    
+    .main p img {
+        margin: 0 auto;
+    }
+    
     .title {
         margin-top: auto;
         margin-bottom: auto;
     }
-
+    
     .title a {
         flex-direction: column;
     }
@@ -114,11 +125,15 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    align-items: center;
+    padding: 1em 6em;
+    border-top: 4px solid #00FFFF;
+    background-color: #222;
 }
 
-.footer a {
-    color: #222;
+.footer a, 
+.footer p {
+    color: #ffffff;
 }
 
 .footer .social {
@@ -129,7 +144,7 @@ body {
 
 body {
     font-family: sans-serif;
-    line-height: 1.5rem;
+    line-height: 1.5;
     color: #444;
 }
 

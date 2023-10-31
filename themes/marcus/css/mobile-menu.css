@@ -12,27 +12,34 @@
 }
 
 #nav ul li {
-    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
 }
 
 #nav ul li a {
     display: block;
-    padding: 0.5em;
+    padding: 0.2em 0.8em;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.3rem;
 }
 
 #nav ul li a:hover {
-    text-decoration: underline;
+    border-bottom: 3px solid #00FFFF;
 }
 
-#nav ul li.active {
-    background-color: black;
-    border-radius: 1em;
+#nav ul li.active::before {
+    content: "\2192";
+    position: relative;
+    top: 0.5rem;
+    right: 0;
 }
 
-#nav ul li.active a {
-    color: whitesmoke;
+#nav ul li.active::after {
+    content: "\2190";
+    position: relative;
+    top: 0.5rem;
+    left: 0;
 }
 
 .nav a, .nav-toggle {
