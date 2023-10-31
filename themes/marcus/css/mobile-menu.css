@@ -58,10 +58,8 @@
     #nav ul {
         flex-direction: column;
         gap: 0.5em;
-    }
-
-    #nav ul li a {
-        text-align: center;
+        align-items: center;
+        padding: 0;
     }
 
     .js .nav-toggle {
