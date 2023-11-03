@@ -1,0 +1,75 @@
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+#nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5em 4em;
+    gap: 5em;
+    list-style: none;
+}
+
+#nav li {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav ul li a {
+    display: block;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#nav ul li a:hover {
+    border-bottom: 3px solid #00FFFF;
+}
+
+#nav ul li.active::before {
+    content: "\2192";
+    position: relative;
+    top: 0.5rem;
+    right: 0;
+}
+
+#nav ul li.active::after {
+    content: "\2190";
+    position: relative;
+    top: 0.5rem;
+    left: 0;
+}
+
+.nav a, .nav-toggle {
+    color: #333;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+    }
+    
+    #nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;
+        padding: 0;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+}

@@ -4,7 +4,7 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/MarcusNAhlin/design_portfolio
-      icon: github
+      icon: fab fa-github
 
     - title: Min personliga webbsida.
       url: https://marcusnahlin.com
