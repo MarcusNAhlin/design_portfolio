@@ -7,14 +7,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 
+@import 'main';
+
 @import 'blockquotes';
 @import 'code';
 @import 'mobile-menu';
-
-body {
-    background-color: $background-color;
-}
-
-* {
-    color: $font-color;
-}

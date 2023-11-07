@@ -3,6 +3,7 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins&display=swap");
 .fa,
 .fas,
 .far,
@@ -6422,6 +6423,24 @@ template {
   display: none;
 }
 
+body {
+  background-color: #3d5a80;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  color: #000;
+  font-family: "Noto Serif", serif;
+}
+
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6529,11 +6548,4 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
-}
-body {
-  background-color: #3d5a80;
-}
-
-* {
-  color: #000;
 }
