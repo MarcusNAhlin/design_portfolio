@@ -1,17 +1,31 @@
-body {
-    background-color: $background-color;
+.main {
+    max-width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    background-color: $bg-grey;
+    padding: 1rem;
+    border-radius: 0.2rem;
+
+    min-height: 62vh;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Poppins', sans-serif;
+.main h1 {
+    border-bottom: 2px solid $highlight;
 }
 
-* {
+.main p {
+    margin-bottom: 0.6rem;
+}
+
+.main p img {
+    border-radius: 0.5em;
+}
+
+.title * {
     color: $font-color;
-    font-family: 'Noto Serif', serif;
+}
+
+.title p {
+    font-style: italic;
 }

@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $bg-dark;
+    padding: 1rem 4rem;
+}
+
+.footer * {
+    color: $font-color-light;
+}
+
+.social a {
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.social > a > i {
+    font-size: 2rem;
+}

@@ -3,43 +3,15 @@
     transition: height 0.5s ease-in !important;
 }
 
-#nav ul {
+.nav ul {
     display: flex;
-    flex-direction: row;
-    margin: 1.5em 4em;
-    gap: 5em;
+    justify-content: flex-end;
+    padding: 1em 0;
     list-style: none;
 }
 
-#nav li {
-    display: flex;
-    flex-direction: row;
-}
-
-#nav ul li a {
-    display: block;
-    padding: 0.2em 0.8em;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.3rem;
-}
-
-#nav ul li a:hover {
-    border-bottom: 3px solid #00FFFF;
-}
-
-#nav ul li.active::before {
-    content: "\2192";
-    position: relative;
-    top: 0.5rem;
-    right: 0;
-}
-
-#nav ul li.active::after {
-    content: "\2190";
-    position: relative;
-    top: 0.5rem;
-    left: 0;
+.nav ul li {
+    padding: 0 1em;
 }
 
 .nav a, .nav-toggle {
@@ -54,12 +26,21 @@
     .header {
         flex-direction: column;
     }
-    
-    #nav ul {
+
+    .nav ul {
         flex-direction: column;
-        gap: 0.5em;
-        align-items: center;
-        padding: 0;
+        padding-bottom: 1em;
+    }
+
+    .nav ul li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 0.5em 0;
     }
 
     .js .nav-toggle {

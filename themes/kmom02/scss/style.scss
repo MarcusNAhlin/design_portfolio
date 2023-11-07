@@ -7,8 +7,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 
-@import 'main';
+@import 'base';
 
+@import 'main';
+@import 'header';
+@import 'footer';
 @import 'blockquotes';
 @import 'code';
 @import 'mobile-menu';
+
+@import 'responsive';

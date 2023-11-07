@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6423,8 +6422,15 @@ template {
   display: none;
 }
 
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: #3d5a80;
+  background-color: #eee;
 }
 
 h1,
@@ -6434,11 +6440,98 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
+  color: #222;
 }
 
 * {
-  color: #000;
   font-family: "Noto Serif", serif;
+  color: #222;
+}
+
+.main {
+  max-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  background-color: #e3e3e3;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  min-height: 62vh;
+}
+
+.main h1 {
+  border-bottom: 2px solid #00EEEE;
+}
+
+.main p {
+  margin-bottom: 0.6rem;
+}
+
+.main p img {
+  border-radius: 0.5em;
+}
+
+.title * {
+  color: #222;
+}
+
+.title p {
+  font-style: italic;
+}
+
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo img {
+  width: 100px;
+  margin: 1em;
+}
+
+.title {
+  padding-left: 1rem;
+  height: 100%;
+}
+
+.title a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 10%;
+}
+
+.title h1 {
+  margin-right: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.title p {
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 4rem;
+}
+
+.footer * {
+  color: #eee;
+}
+
+.social a {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.social > a > i {
+  font-size: 2rem;
 }
 
 blockquote {
@@ -6481,43 +6574,15 @@ pre code {
   transition: height 0.5s ease-in !important;
 }
 
-#nav ul {
+.nav ul {
   display: flex;
-  flex-direction: row;
-  margin: 1.5em 4em;
-  gap: 5em;
+  justify-content: flex-end;
+  padding: 1em 0;
   list-style: none;
 }
 
-#nav li {
-  display: flex;
-  flex-direction: row;
-}
-
-#nav ul li a {
-  display: block;
-  padding: 0.2em 0.8em;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
-#nav ul li a:hover {
-  border-bottom: 3px solid #00FFFF;
-}
-
-#nav ul li.active::before {
-  content: "→";
-  position: relative;
-  top: 0.5rem;
-  right: 0;
-}
-
-#nav ul li.active::after {
-  content: "←";
-  position: relative;
-  top: 0.5rem;
-  left: 0;
+.nav ul li {
+  padding: 0 1em;
 }
 
 .nav a, .nav-toggle {
@@ -6532,11 +6597,18 @@ pre code {
   .header {
     flex-direction: column;
   }
-  #nav ul {
+  .nav ul {
     flex-direction: column;
-    gap: 0.5em;
-    align-items: center;
-    padding: 0;
+    padding-bottom: 1em;
+  }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
   }
   .js .nav-toggle {
     display: block;
@@ -6547,5 +6619,29 @@ pre code {
     line-height: 2em;
     text-align: center;
     cursor: pointer;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    margin: 0;
+    padding: 1rem;
+    width: 100vw;
+    max-width: none;
+  }
+  .main img {
+    max-width: 90vw;
+  }
+}
+@media (max-width: 500px) {
+  .footer {
+    padding: 1rem;
+  }
+}
+@media (max-width: 335px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer > .social {
+    margin-top: 1rem;
   }
 }
