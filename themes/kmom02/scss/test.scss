@@ -1,0 +1,40 @@
+$text-dark: #333;
+$bg: #eee;
+$bg-grey: #e3e3e3;
+
+@mixin text-fix {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    max-width: 60rem;
+    margin: 0 auto;
+    margin-bottom: 1.4rem;
+    color: $text-dark;
+    background-color: $bg;
+}
+
+.main {
+    max-width: none;
+    
+    .old-fashioned {
+        @include text-fix;
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .modern {
+        @include text-fix;
+        
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .worst-ever {
+        @include text-fix;
+
+        font-family: 'Courier New', Courier, monospace;
+        background-color: $bg-grey;
+        letter-spacing: -4px;
+        line-height: 0.8;
+        font-weight: bold;
+    }
+}
