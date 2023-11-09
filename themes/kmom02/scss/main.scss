@@ -1,9 +1,14 @@
+body {
+    background-color: $bg;
+}
+
 .main {
     max-width: 670px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2em;
-    background-color: $bg-grey;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: $bg-2;
     padding: 1rem;
     border-radius: 0.2rem;
 
@@ -23,7 +28,7 @@
 }
 
 .title * {
-    color: $font-color;
+    color: $text-dark;
 }
 
 .title p {

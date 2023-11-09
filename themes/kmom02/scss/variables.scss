@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins&display=swap');
+/* Colors */
+$bg: #e6e6e6;
+$bg-2: #eee;
+$bg-3: #333;
 
-$bg: #eee;
-$bg-grey: #e3e3e3;
-$bg-dark: #333;
-
-$font-color: #222;
-$font-color-light: #eee;
+$text-dark: #222;
+$text-light: #eee;
 
 $highlight: #0EE;
+
+
+$font-family: 'Noto Serif', serif;
+$font-family-title: 'Poppins', sans-serif;
+$letter-spacing: 2px;

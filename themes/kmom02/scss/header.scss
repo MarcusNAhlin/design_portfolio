@@ -30,3 +30,8 @@
 .title p {
     margin: 0;
 }
+
+.active > a{
+    color: $highlight !important;
+    text-shadow: 0 0 3px black !important; 
+}

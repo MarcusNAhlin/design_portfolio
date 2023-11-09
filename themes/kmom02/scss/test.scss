@@ -1,6 +1,6 @@
 $text-dark: #333;
 $bg: #eee;
-$bg-grey: #e3e3e3;
+$bg-2: #e3e3e3;
 
 @mixin text-fix {
     font-size: 1.2rem;
@@ -32,7 +32,7 @@ $bg-grey: #e3e3e3;
         @include text-fix;
 
         font-family: 'Courier New', Courier, monospace;
-        background-color: $bg-grey;
+        background-color: $bg-2;
         letter-spacing: -4px;
         line-height: 0.8;
         font-weight: bold;
