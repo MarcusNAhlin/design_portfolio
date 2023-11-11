@@ -13,18 +13,18 @@ body {
     border-radius: 0.2rem;
 
     min-height: 62vh;
-}
 
-.main h1 {
-    border-bottom: 2px solid $highlight;
-}
+    h1 {
+        border-bottom: 2px solid $highlight;
+    }
 
-.main p {
-    margin-bottom: 0.6rem;
-}
+    p {
+        margin-bottom: 0.6rem;
 
-.main p img {
-    border-radius: 0.5em;
+        img {
+            border-radius: 0.5em;
+        }
+    }
 }
 
 .title * {

@@ -4,10 +4,10 @@
         padding: 1rem;
         width: 100vw;
         max-width: none;
-    }
-    
-    .main img {
-        max-width: 90vw;
+
+        img {
+            max-width: 90vw;
+        }
     }
 }
 
@@ -20,9 +20,9 @@
 @media (max-width: 400px) {
     .footer {
         flex-direction: column;
-    }
 
-    .footer > .social {
-        margin-top: 1rem;
+        .social {
+            margin-top: 1rem;
+        }
     }
 }

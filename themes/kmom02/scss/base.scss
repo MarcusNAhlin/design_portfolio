@@ -75,7 +75,6 @@ h6 {
     margin-bottom: 1.6rem;
 }
 
-
 p {
     @include default-text(1px);
     /* 1 - 1.3? */
@@ -86,7 +85,6 @@ p {
     max-width: 60rem;
     font-family: $font-family;
 }
-
 
 @media (min-width: 64em) {
     html {

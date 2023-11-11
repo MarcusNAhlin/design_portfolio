@@ -5,17 +5,23 @@
     align-items: center;
     background-color: $bg-3;
     padding: 1rem 4rem;
-}
 
-.footer * {
-    color: $text-light;
-}
+    * {
+        color: $text-light;
+    }
 
-.social a {
-    margin-left: 1rem;
-    text-decoration: none;
-}
+    p {
+        margin: 0;
+    }
 
-.social > a > i {
-    font-size: 2rem;
+    .social {
+        a {
+            margin-left: 1rem;
+            text-decoration: none;
+        }
+
+        > a > i {
+            font-size: 2rem;
+        }
+    }
 }

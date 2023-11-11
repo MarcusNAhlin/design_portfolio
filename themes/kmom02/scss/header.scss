@@ -4,33 +4,37 @@
     justify-content: space-between;
 }
 
-.header .logo img {
-    width: 100px;
-    margin: 1em;
-}
+.header {
+    .site-header {
+        .logo img {
+            width: 100px;
+            margin: 1em;
+        }
 
-.title {
-    padding-left: 1rem;
-    height: 100%;
-}
+        .title {
+            padding-left: 1rem;
+            height: 100%;
 
-.title a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-}
+            a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-decoration: none;
+            }
 
-.title h1 {
-    margin-right: 0.5em;
-    margin-bottom: 0.3em;
-}
+            h1 {
+                margin-right: 0.5em;
+                margin-bottom: 0.3em;
+            }
 
-.title p {
-    margin: 0;
-}
+            p {
+                margin: 0;
+            }
+        }
+    }
+} 
 
-.active > a{
+.active > a {
     color: $highlight !important;
     text-shadow: 0 0 3px black !important; 
 }
