@@ -1,4 +1,4 @@
-.header, 
+.header,
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -32,9 +32,9 @@
             }
         }
     }
-} 
+}
 
-.active > a {
+.active>a {
     color: $highlight !important;
-    text-shadow: 0 0 3px black !important; 
+    text-shadow: 0 0 3px #000 !important;
 }

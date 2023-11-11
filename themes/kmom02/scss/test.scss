@@ -14,7 +14,7 @@ $bg-2: #e3e3e3;
 
 .main {
     max-width: none;
-    
+
     .old-fashioned {
         @include text-fix;
 
@@ -23,8 +23,8 @@ $bg-2: #e3e3e3;
 
     .modern {
         @include text-fix;
-        
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         letter-spacing: 1px;
     }
 

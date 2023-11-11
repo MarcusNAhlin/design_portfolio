@@ -70,7 +70,7 @@ h6 {
     font-family: $font-family-title;
     @include default-text(2px);
     font-size: 1.2rem;
-    
+
     /* p-tags margin-bottom * 2  */
     margin-bottom: 1.6rem;
 }
@@ -88,9 +88,9 @@ p {
 
 @media (min-width: 64em) {
     html {
-      font-size: 112.5%;
+        font-size: 112.5%;
     }
-  }
+}
 
 .hidden {
     display: none;
