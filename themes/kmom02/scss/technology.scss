@@ -1,0 +1,28 @@
+.technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    h1 {
+        justify-self: top;
+    }
+
+    .technology-text {
+        width: 80%;
+    }
+}
+
+.sidebar {
+    width: 15%;
+    margin-left: 0.5rem;
+
+    * {
+        font-size: 1rem;
+    }
+
+    .sidebar-active {
+        margin: 0 !important;
+    }
+}

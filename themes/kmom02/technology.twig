@@ -1,0 +1,30 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <h1>{{ meta.title }}</h1>
+        <div class="technology">
+            <div class="sidebar">
+                <ul>
+                    {% for page in pages("technology") if page.title and not page.hidden %}
+                    <li>
+                        {% if page.id==current_page.id %}
+                        <p class="sidebar-active">{{ page.title }}</p>
+                        {% else %}
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="technology-text">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+</html>

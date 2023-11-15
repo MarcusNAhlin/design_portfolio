@@ -9,6 +9,11 @@
             max-width: 90vw;
         }
     }
+
+    .landingpage>div {
+        grid-column: span 3 !important;
+    }
+
 }
 
 @media (max-width: 500px) {
