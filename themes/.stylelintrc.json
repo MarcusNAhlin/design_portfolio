@@ -11,7 +11,7 @@
                 ]
             }
         ],
-        "max-nesting-depth": 3,
+        "max-nesting-depth": 3  ,
         "at-rule-no-unknown": null,
         "selector-max-compound-selectors": 5
     },

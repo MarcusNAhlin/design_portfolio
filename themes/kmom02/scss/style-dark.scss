@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins&display=swap');
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+
+@import 'base';
+
+@import 'main';
+@import 'header';
+@import 'footer';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import 'technologies';
+@import 'technology';
+
+@import 'responsive';
+
+// Test
+// @import 'test'

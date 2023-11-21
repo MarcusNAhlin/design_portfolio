@@ -1,4 +1,4 @@
-@mixin default-text($letter-spacing: $letter-spacing, $text-color: $text-dark) {
+@mixin default-text($letter-spacing: $letter-spacing, $text-color: $text-color) {
     letter-spacing: $letter-spacing;
     color: $text-color;
 }

@@ -28,9 +28,13 @@ body {
 }
 
 .title * {
-    color: $text-dark;
+    color: $text-color;
 }
 
 .title p {
     font-style: italic;
+}
+
+a {
+    color: $text-color;
 }
