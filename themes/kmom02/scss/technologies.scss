@@ -9,7 +9,26 @@
     }
 
     .box {
-        border: 1px solid $highlight;
+        border-radius: 1rem;
+        text-align: center;
+        background-color: $bg-3;
+
+        &:hover {
+            outline: 3px solid $highlight;
+        }
+
+        h2 {
+            margin: auto 0;
+
+            a {
+                display: inline-block;
+                color: $text-color-2;
+                text-decoration: none;
+
+                height: 100%;
+                width: 100%;
+            }
+        }
     }
 
     .box1 {

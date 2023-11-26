@@ -7,10 +7,19 @@ table {
         font-size: 1.2rem;
         text-align: left;
         padding-right: 0.8rem;
+
+        background-color: $bg-3;
+        color: $text-color-2;
+        padding: 0.5rem;
     }
 
-    tbody>tr:nth-child(odd) {
-        background-color: $bg;
+
+    tbody {
+        border-radius: 1rem;
+
+        tr {
+            border-bottom: 1px solid grey;
+        }
     }
 
     td {

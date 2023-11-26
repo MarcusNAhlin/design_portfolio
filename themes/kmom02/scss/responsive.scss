@@ -24,6 +24,17 @@
     .footer {
         padding: 1rem;
     }
+
+    table {
+
+        th {
+            font-size: 1rem;
+        }
+
+        td {
+            font-size: 0.7rem;
+        }
+    }
 }
 
 @media (max-width: 400px) {
@@ -32,6 +43,17 @@
 
         .social {
             margin-top: 1rem;
+        }
+    }
+
+    table {
+
+        th {
+            font-size: 0.7rem;
+        }
+
+        td {
+            font-size: 0.7rem;
         }
     }
 }
