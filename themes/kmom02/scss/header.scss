@@ -35,6 +35,5 @@
 }
 
 .active>a {
-    color: $highlight !important;
-    text-shadow: 0 0 3px #000 !important;
+    border-bottom: 2px solid $highlight;
 }
