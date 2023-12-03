@@ -84,6 +84,7 @@ p {
     margin-bottom: 1.8rem;
     max-width: 70rem;
     font-family: $font-family;
+    word-break: break-all;
 }
 
 @media (min-width: 64em) {

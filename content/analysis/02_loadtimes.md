@@ -26,44 +26,50 @@ Testerna gjordes på tre olika undersidor på alla de tre utvalda webbplatserna 
 Resultat
 -----------------------
 
-<div class="embed-container" style="padding-bottom: 30%;">
-    <iframe style="border:none; max-width: 381px;"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=915261659&amp;format=interactive">
+<div class="embed-container analysis-chart" style="padding-bottom: 30%;">
+    <iframe class="analysis-chart" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=915261659&amp;format=interactive">
     </iframe>
 </div>
 
 ### Aftonbladet 
 
+<a href=" %base_url%/image/aftonbladet.png" target="_blank">
 <picture>
     <source media="(min-width: 668px)" srcset="%base_url%/image/aftonbladet.png?w=1000&save-as=jpg">
     <img src="%base_url%/image/aftonbladet.png?w=766&save-as=jpg" alt="Aftonbladet">
 </picture>
+</a>
 
-<div class="embed-container" style="padding-bottom: 15%;">
-    <iframe style="border:none;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=21972345&amp;format=interactive">
+<div class="embed-container analysis-data" style="padding-bottom: 15%;">
+    <iframe class="analysis-data"   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=21972345&amp;format=interactive">
     </iframe>
 </div>
 
 ### Expressen
 
+<a href=" %base_url%/image/expressen.png" target="_blank">
 <picture>
     <source media="(min-width: 668px)" srcset="%base_url%/image/expressen.png?w=1000&save-as=jpg">
     <img src="%base_url%/image/expressen.png?w=766&save-as=jpg" alt="Expressen">
 </picture>
+</a>
 
-<div class="embed-container" style="padding-bottom: 15%;">
-    <iframe style="border:none;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=724277960&amp;format=interactive">
+<div class="embed-container analysis-data" style="padding-bottom: 15%;">
+    <iframe class="analysis-data"   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=724277960&amp;format=interactive">
     </iframe>
 </div>
 
 ### Dagens Nyheter (DN)
 
+<a href=" %base_url%/image/dn.png" target="_blank">
 <picture>
     <source media="(min-width: 668px)" srcset="%base_url%/image/dn.png?w=1000&save-as=jpg">
     <img src="%base_url%/image/dn.png?w=766&save-as=jpg" alt="Dagens Nyheter">
 </picture>
+</a>
 
-<div class="embed-container" style="padding-bottom: 15%;">
-    <iframe style="border:none;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=866226205&amp;format=interactive">
+<div class="embed-container analysis-data" style="padding-bottom: 15%;">
+    <iframe class="analysis-data" scrolling="auto" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=866226205&amp;format=interactive">
     </iframe>
 </div>
 

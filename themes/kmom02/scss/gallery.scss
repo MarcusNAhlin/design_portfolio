@@ -27,6 +27,15 @@
     left: 0;
     width: 100%;
     height: 100%;
+    border: none;
+}
+
+.analysis-chart {
+    height: 236px;
+}
+
+.analysis-data {
+    height: 108px;
 }
 
 @media (max-width: 767px) {
@@ -37,4 +46,5 @@
     .main img {
         max-width: 100% !important;
     }
+
 }
