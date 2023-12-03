@@ -27,7 +27,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: none;
+    border: 0;
 }
 
 .analysis-chart {
@@ -36,6 +36,10 @@
 
 .analysis-data {
     height: 108px;
+}
+
+ol {
+    margin-left: 1rem;
 }
 
 @media (max-width: 767px) {

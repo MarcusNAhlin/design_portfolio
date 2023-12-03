@@ -3,7 +3,7 @@ Title: Loadtimes
 Description: This is my loadtimes page.
 ---
 
-Laddningstider
+Webbsidors Laddningstider: En Analys Om Webbisidors Inladdningstider 
 =======================
 
 Uppgiften syfte är att undersöka webbsidors laddningstider.
@@ -25,6 +25,8 @@ Testerna gjordes på tre olika undersidor på alla de tre utvalda webbplatserna 
 
 Resultat
 -----------------------
+
+Länk till alla resultat: <a href="https://docs.google.com/spreadsheets/d/1hmZBRc3F8Cf-VjZi0SJDc93-w_48gSnU1ERRVxA6fYw" target="_blank">Google Kalkyl</a>
 
 <div class="embed-container analysis-chart" style="padding-bottom: 30%;">
     <iframe class="analysis-chart" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=915261659&amp;format=interactive">
@@ -89,6 +91,7 @@ Dagens Nyheter (DN) fick bra resultat i undersökningen, en kombination av rätt
 1. Dagens Nyheter (DN)
 2. Expressen
 3. Aftonbladet
+
 
 Min rangordning av de tre webbplatserna följer laddningstiderna vilket i sin tur beror på hur bra webbplatserna är optimerade vilket är anledningen till min rangordning.
 
