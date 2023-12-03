@@ -1,5 +1,5 @@
 ---
-Logo: image/letter_m.png
+Logo: image/letter_m.png?w=100&q=40&save-as=webp
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.

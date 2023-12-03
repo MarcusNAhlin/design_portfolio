@@ -95,3 +95,10 @@ p {
 .hidden {
     display: none;
 }
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}

@@ -11,7 +11,7 @@ Tech
 </div>
 
 <div class="box box2">
-    <h2><a href="%base_url%?analysis/02_load">Load</a></h2>
+    <h2><a href="%base_url%?analysis/02_loadtimes">Loadingtimes</a></h2>
 </div>
 
 <div class="box box3">

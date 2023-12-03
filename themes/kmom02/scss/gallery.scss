@@ -1,0 +1,40 @@
+.gallery-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.25rem 0.5rem;
+}
+
+.gallery-holder>a {
+    margin: 0 auto;
+}
+
+
+.embed-container {
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .gallery-holder {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main img {
+        max-width: 100% !important;
+    }
+}

@@ -18,7 +18,7 @@ Metod
 -----------------------
 För att undersöka webbsidorna besöktes huvudsidan och dess undersidor samtidigt som sidans färger och fonter antecknades.
 För att få fram exakta färger på webbsidan användes webbläsartillägget <a href="https://www.colorzilla.com/">ColorZilla</a> [4] och <a href="https://chromewebstore.google.com/detail/font-finder/bhiichidigehdgphoambhjbekalahgha">Font Finder</a> [5] för att få fram fonterna på webbsidan. 
-
+    
 Resultat
 -----------------------
 

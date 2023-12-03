@@ -4,7 +4,15 @@ Description: Test page.
 Hidden: true
 ---
 
-## Test
+Test
+====================================
+
+![Bild](image/movement.png?w=800&save-as=jpg&q=50&sharpen)
+![Bild](image/movement.png)
+
+![Bild](image/movement.jpg?f=colorize,70,0,0,0)
+![Bild](image/movement.jpg?f=negate)
+![Bild](image/movement.jpg?convolve=draw)
 
 <p class="old-fashioned">
 Hör nu på, govänner, så ska jag för er berätta vad en gosse gjorde, det är nu längesen, men nog lever minnet kvar i Smålands sköna dalar, Katthult Lönneberga, det var den gossens hem. Hujedamej, sånt barn han var, Ej värre tänkas kan, Och Emil var det namn han bar, Ja, Emil hette han.
