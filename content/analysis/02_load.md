@@ -26,16 +26,16 @@ Testerna gjordes på tre olika undersidor på alla de tre utvalda webbplatserna 
 Resultat
 -----------------------
 
-Länk till alla resultat: <a href="https://docs.google.com/spreadsheets/d/1hmZBRc3F8Cf-VjZi0SJDc93-w_48gSnU1ERRVxA6fYw" target="_blank">Google Kalkyl</a>
+Länk till alla resultat: <a href="https://docs.google.com/spreadsheets/d/1hmZBRc3F8Cf-VjZi0SJDc93-w_48gSnU1ERRVxA6fYw" aria-label="Google Kalkyl" target="_blank">Google Kalkyl</a>
 
 <div class="embed-container analysis-chart" style="padding-bottom: 30%;">
-    <iframe class="analysis-chart" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=915261659&amp;format=interactive">
+    <iframe title="Analys staplar" class="analysis-chart" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=915261659&amp;format=interactive">
     </iframe>
 </div>
 
 ### Aftonbladet 
 
-<a href=" %base_url%/image/aftonbladet.png" target="_blank">
+<a href=" %base_url%/image/aftonbladet.png" aria-label="Länk till bild på Aftonbladets webbsida" target="_blank">
 <picture>
     <source media="(min-width: 668px)" srcset="%base_url%/image/aftonbladet.png?w=1000&save-as=jpg">
     <img src="%base_url%/image/aftonbladet.png?w=766&save-as=jpg" alt="Aftonbladet">
@@ -43,13 +43,13 @@ Länk till alla resultat: <a href="https://docs.google.com/spreadsheets/d/1hmZBR
 </a>
 
 <div class="embed-container analysis-data" style="padding-bottom: 15%;">
-    <iframe class="analysis-data"   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=21972345&amp;format=interactive">
+    <iframe title="Data för Aftonbladet" class="analysis-data"   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=21972345&amp;format=interactive">
     </iframe>
 </div>
 
 ### Expressen
 
-<a href=" %base_url%/image/expressen.png" target="_blank">
+<a href=" %base_url%/image/expressen.png" aria-label="Länk till bild på Expressens webbsida" target="_blank">
 <picture>
     <source media="(min-width: 668px)" srcset="%base_url%/image/expressen.png?w=1000&save-as=jpg">
     <img src="%base_url%/image/expressen.png?w=766&save-as=jpg" alt="Expressen">
@@ -57,13 +57,13 @@ Länk till alla resultat: <a href="https://docs.google.com/spreadsheets/d/1hmZBR
 </a>
 
 <div class="embed-container analysis-data" style="padding-bottom: 15%;">
-    <iframe class="analysis-data"   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=724277960&amp;format=interactive">
+    <iframe title="Data för Expressen" class="analysis-data"   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=724277960&amp;format=interactive">
     </iframe>
 </div>
 
 ### Dagens Nyheter (DN)
 
-<a href=" %base_url%/image/dn.png" target="_blank">
+<a href=" %base_url%/image/dn.png" aria-label="Länk till bild på Dagens Nyheter (DN)s webbsida" target="_blank">
 <picture>
     <source media="(min-width: 668px)" srcset="%base_url%/image/dn.png?w=1000&save-as=jpg">
     <img src="%base_url%/image/dn.png?w=766&save-as=jpg" alt="Dagens Nyheter">
@@ -71,7 +71,7 @@ Länk till alla resultat: <a href="https://docs.google.com/spreadsheets/d/1hmZBR
 </a>
 
 <div class="embed-container analysis-data" style="padding-bottom: 15%;">
-    <iframe class="analysis-data" scrolling="auto" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=866226205&amp;format=interactive">
+    <iframe title="Data för Dagens Nyheter (DN)" class="analysis-data" scrolling="auto" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTttdn0qDFjBcjQwvs6zkmeOr260WVqJrqqGhhKkfDO38uqDMkWubL0vCcSAVjKUCoSmP2BGZfEqapm/pubchart?oid=866226205&amp;format=interactive">
     </iframe>
 </div>
 

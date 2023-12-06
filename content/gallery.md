@@ -46,6 +46,6 @@ Galleri
 </div>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/NfqWfq_BrDE?si=_8lbd46ncaR7ipwP" frameborder="0" allowfullscreen>
+    <iframe title="YouTube video Edward Blom gör alkoglass" src="https://www.youtube.com/embed/NfqWfq_BrDE?si=_8lbd46ncaR7ipwP" frameborder="0" allowfullscreen>
     </iframe>
 </div>

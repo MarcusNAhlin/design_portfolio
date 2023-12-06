@@ -9,7 +9,7 @@ Marcus N Ahlin Portfolio
 <div class="col-home">
 <picture>
     <source media="(min-width: 668px)" srcset="%base_url%/image/laptop_coffee_orange.jpg?q=80&h=500">
-    <img src="%base_url%/image/laptop_coffee_orange?q=100" alt="Laptop och kaffe">
+    <img src="%base_url%/image/laptop_coffee_orange?q=80" alt="Laptop och kaffe">
 </picture>
 
 <div class="right">
