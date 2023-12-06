@@ -1,9 +1,9 @@
 ---
-Title: Technologies
+Title: Teknologier
 Description: This is my technologies page.
 Template: technologies
 ---
-Tech
+Teknologier
 =================
 
 <div class="box box1">

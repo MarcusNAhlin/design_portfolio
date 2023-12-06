@@ -1,6 +1,6 @@
 ---
 Logo: image/letter_m.png?w=100&q=40&save-as=webp
-Tagline: My portfolio.
+Tagline: Mitt portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/MarcusNAhlin/design_portfolio

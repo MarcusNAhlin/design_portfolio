@@ -1,9 +1,9 @@
 ---
-Title: Gallery
+Title: Galleri
 Description: This is my gallery page.
 ---
 
-Gallery
+Galleri
 ====================================
 
 <div class="gallery-holder">

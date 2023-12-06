@@ -1,0 +1,20 @@
+.about-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    .pico {
+        width: 65%;
+    }
+
+    .twig {
+        width: 30%;
+    }
+
+    .sass {
+        width: 100%;
+    }
+
+}
