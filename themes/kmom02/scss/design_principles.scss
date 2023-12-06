@@ -1,0 +1,35 @@
+.two-col {
+    display: flex;
+    flex-direction: row;
+}
+
+.two-col>a {
+    display: flex;
+    align-items: center;
+    width: 30%;
+
+}
+
+.two-col>div {
+    width: 68%;
+}
+
+
+@media (max-width: 668px) {
+    .two-col {
+        flex-direction: column;
+    }
+
+    .two-col>a {
+        align-self: center;
+        width: 95%;
+
+        picture img {
+            width: 100%;
+        }
+    }
+
+    .two-col>div {
+        width: 100%;
+    }
+}
