@@ -1,22 +1,12 @@
-body {
-    background-color: $bg;
-}
-
 .main {
-    max-width: 45rem;
+    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
-    margin-top: 1rem;
-    background-color: $bg-2;
     padding: 1rem;
     border-radius: 0.2rem;
 
     min-height: 76vh;
-
-    h1 {
-        border-bottom: 3px solid $highlight;
-    }
 
     p {
         img {
@@ -35,4 +25,40 @@ body {
 
 a {
     color: $text-color;
+}
+
+.col-home {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3.5rem;
+}
+
+
+
+.col-home picture {
+
+    width: 50%;
+    height: auto;
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 0.2rem;
+    }
+}
+
+.col-home {
+
+    >div {
+        margin: auto 0;
+        width: 60%;
+    }
+
+    .right {
+        margin-left: 2rem;
+    }
+
+    .left {
+        margin-right: 2rem;
+    }
 }

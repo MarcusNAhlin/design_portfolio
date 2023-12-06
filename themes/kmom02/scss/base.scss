@@ -15,6 +15,7 @@ html {
 }
 
 body {
+    background-color: $bg;
     /* 1.2 - 1.5 */
     line-height: 1.3;
     max-width: 100vw;
@@ -23,7 +24,7 @@ body {
 h1 {
     font-family: $font-family-title;
     @include default-text(3px);
-    font-size: 2rem;
+    font-size: 2.4rem;
 
     /* p-tags margin-bottom * 2  */
     margin-bottom: 2.0rem;
@@ -37,6 +38,13 @@ h2 {
 
     /* p-tags margin-bottom * 2  */
     margin-bottom: 1.2rem;
+}
+
+.arrow::before {
+    position: relative;
+    left: -0.4rem;
+    content: "»";
+    color: $highlight;
 }
 
 h3 {

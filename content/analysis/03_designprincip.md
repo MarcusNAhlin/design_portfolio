@@ -119,6 +119,8 @@ Analys
 Generellt sätt är symmetri en stor del av designen på webbsidorna. Det är ett enkel sätt att skapa en känsla av balans och struktur på webbplatsen. 
 Kontrast mellan viktiga delar och dess bakgrund utnyttjas även för att få användarens uppmärksamhet. 
 
+**Förbättra:** balans, färg, skala 
+
 Referenser
 -----------------------
 
