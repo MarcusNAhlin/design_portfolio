@@ -17,7 +17,7 @@ Urvalet gjordes på tre sportstjärnors personliga webbsidor. Dessa är [Tiger W
 Metod
 -----------------------
 
-Canvas artikel "Design elements and principles" [1] användes som referens för att undersöka vilka designprinciper webbsidorna använt sig av. 
+Varje sida genomsöktes och en skärmbild på startsidan togs. Canvas artikel "Design elements and principles" [1] användes som referens för att undersöka vilka designprinciper webbsidorna använt sig av. 
 
 
 Resultat
@@ -103,13 +103,16 @@ Resultat
 
 <div>
     <p>
-    Designen är väldigt enkel och den blåa färgen blir tydligt direkt.
+        Designen är väldigt enkel och den blåa färgen blir tydligt direkt.
     </p>
     <p>
-        Färger ger en lekfull och lite mindre seriös känsla, vilket kan vara både bra och dåligt på en personlig sida. 
+        Färger ger en lekfull och lite mindre seriös känsla, vilket kan vara både bra och dåligt på en personlig sida. Innehåller är i huvudsak centrerat mot mitten.
     </p>
     <p>
-     Innehåller är i huvudsak centrerat mot mitten.
+        För att förbättra sidan skulle färg, balans och skala framför allt kunna förbättras. Balansen skulle kunna gå från vänster till höger istället för att vara centrerat och skalan skulle kunna variera mer. Färgerna skulle kunna användas på ett mer genomtänkt sätt genom att använda färgen för att fånga användarens uppmärksamhet.
+    </p>
+    <p>
+        <strong>Förbättrat:</strong> balans, färg, skala 
     </p>
 </div>
 
@@ -117,13 +120,15 @@ Analys
 -----------------------
 
 Generellt sätt är symmetri en stor del av designen på webbsidorna. Det är ett enkel sätt att skapa en känsla av balans och struktur på webbplatsen. 
-Kontrast mellan viktiga delar och dess bakgrund utnyttjas även för att få användarens uppmärksamhet. 
+Kontrast mellan viktiga delar och dess bakgrund utnyttjas även för att få användarens uppmärksamhet. Många bilder används för att ge en känsla av personlighet och liv.
+En del balans används men i mindre utsträckning än vad jag trodde innan jag började undersökningen. 
+Dessutom var balans lättare att implementera än vad jag tidigare trott och resultat blev snabbt ganska bra.
 
-**Förbättra:** balans, färg, skala 
 
 Referenser
 -----------------------
-
+[1] Design elements and principles. (u.d). Canva [Online]. Tillgänglig:
+https://www.canva.com/learn/design-elements-principles . Hämtad: 8 December 2023.
 
 Övrigt
 -----------------------
